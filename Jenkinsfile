@@ -1,4 +1,5 @@
 pipeline {
+  agent { label 'slave-240' }
   stages {
     stage('SonarQube Scan'){
       steps{
